@@ -1,0 +1,24 @@
+baseURL = 'https://Jayliu958.github.io/ml-dev/'
+title = 'ML平台开发日志'
+theme = 'hugo-book'
+
+defaultContentLanguage = 'zh'
+
+[languages.zh]
+  locale = 'zh-cn'
+  label = '中文'
+
+[params]
+  BookSection = 'docs'
+  BookToC = true
+  BookCollapseSection = false
+  BookDateFormat = '2006-01-02'
+  BookMenuBundle = '/menu'
+
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 4

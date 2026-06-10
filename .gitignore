@@ -1,0 +1,30 @@
+# Hugo 构建产物
+public/
+resources/
+.waylog
+
+# Hugo 锁文件
+.hugo_build.lock
+
+# Hugo 二进制（GitHub Actions 自动安装，不需要提交）
+hugo.exe
+hugo
+
+# OS 生成文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+.obsidian/
+.zed/
+*.swp
+*.swo
+*~
+
+# 环境和密钥
+.env
+.env.*
+!.env.example

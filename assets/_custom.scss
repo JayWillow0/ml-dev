@@ -1,0 +1,53 @@
+// TrinaML Dev Blog - Custom Styles
+
+// Brand colors
+$trina-primary: #2563eb;
+$trina-dark: #1e293b;
+
+// Hint blocks with left border
+.book-page .markdown blockquote {
+  border-left: 3px solid $trina-primary;
+}
+
+// Section landing page cards
+.book-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+// Weight badge in sidebar
+.weight-badge {
+  font-size: 0.75rem;
+  background: #e2e8f0;
+  color: #475569;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  margin-right: 0.3rem;
+}
+
+// Code block styling
+.markdown pre {
+  border-radius: 6px;
+}
+
+// Table hover
+.markdown table tr:hover {
+  background-color: #f1f5f9;
+}
+
+// Details styling
+details summary {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  &:hover {
+    color: $trina-primary;
+  }
+}
+
+// Tab active state
+.book-tabs {
+  margin: 1rem 0;
+}
