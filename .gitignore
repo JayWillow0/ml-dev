@@ -1,7 +1,7 @@
 # Hugo 构建产物
 public/
 resources/
-.waylog
+.waylog/
 
 # Hugo 锁文件
 .hugo_build.lock
